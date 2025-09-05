@@ -1,1 +1,29 @@
+# Output CSV file (in repo root)
+output_csv: prices.csv
+
+# Product list: add/edit entries here.
+# Each entry must contain:
+# - name: a friendly label
+# - url: the product page URL
+# - price_selector: a CSS selector that targets the price element on that page
+products:
+  - name: Logitech Mouse (demo site)
+    url: https://webscraper.io/test-sites/e-commerce/static/product/212
+    price_selector: ".price"
+
+  - name: iPhone (demo site)
+    url: https://webscraper.io/test-sites/e-commerce/static/product/518
+    price_selector: ".price"
+
+  # Example of another simple static demo product
+  - name: Example Store - TShirt (demo)
+    url: https://webscraper.io/test-sites/e-commerce/static/product/545
+    price_selector: ".price"
+
+# Notes:
+# - For dynamic JS sites (content rendered with JavaScript), the requests+BeautifulSoup method may return no price.
+#   In that case, you can either:
+#     * use a site that renders server-side, or
+#     * replace the fetch_html() logic with Playwright (not included here).
+# - To find a CSS selector in Chrome/Firefox: Inspect element -> right-click element -> Copy -> Copy selector.
 
