@@ -1,1 +1,7 @@
 
+timestamp,product,price,url
+2025-09-05 08:45:12,Logitech Mouse (demo site),$99.00,https://webscraper.io/test-sites/e-commerce/static/product/212
+2025-09-05 08:45:12,iPhone (demo site),$899.00,https://webscraper.io/test-sites/e-commerce/static/product/518
+2025-09-06 09:12:30,Logitech Mouse (demo site),$95.50,https://webscraper.io/test-sites/e-commerce/static/product/212
+2025-09-06 09:12:30,iPhone (demo site),N/A,https://webscraper.io/test-sites/e-commerce/static/product/518
+2025-09-07 10:03:01,Example Store - TShirt,ERROR: Connection timed out,https://example.com/product/tshirt-123
