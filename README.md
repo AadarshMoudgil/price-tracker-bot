@@ -2,6 +2,8 @@
 
 ## What it is
 A config-driven Python script that scrapes product prices from web pages and appends them to a CSV (`prices.csv`) with timestamps. Clean, simple, and ready for a GitHub portfolio.
+## Workflow 
+![Workflow Diagram Detailed](price-tracker-bot/Workflow)
 
 ## Client need
 Clients want automated price monitoring so they don't manually check competitor sites each day.
